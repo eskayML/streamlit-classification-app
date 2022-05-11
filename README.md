@@ -1,0 +1,3 @@
+# streamlit-classification-app
+
+**USING STREAMLIT TO BUILD A SIMPLE CLASSIFIER APPLICATION**
