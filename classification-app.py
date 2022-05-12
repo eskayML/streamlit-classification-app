@@ -5,11 +5,9 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier,GradientBoostingClassifier
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
-import matplotlib.pyplot as plt
 from sklearn.metrics import precision_score, recall_score, accuracy_score
 np.random.seed(42)
 
-# plt.style.use('seaborn')
 st.title("Perform different classification algorithms ")
 st.write("""&copy;Dev Eskay""")
 test_size = st.sidebar.slider("Select Test Size (%) ", 5,30)
